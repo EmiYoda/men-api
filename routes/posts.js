@@ -17,8 +17,8 @@ router.get('/', async (req, res) => {
 router.post('/', async (req, res) => {
     try {
         const post = new Post({
-            title: req.body.title,
-            description: req.body.description,
+            imageUrl: req.body.imageUrl,
+            autor: req.body.autor,
         });
 
          const savedPost = await post.save();
