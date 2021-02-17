@@ -9,6 +9,10 @@ const PostSchema = mongoose.Schema({
         type: String,
         required: true,
     },
+    title: {
+        type: String,
+        required: true,
+    }
 })
 
 module.exports = mongoose.model('Posts', PostSchema)

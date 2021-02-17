@@ -19,6 +19,7 @@ router.post('/', async (req, res) => {
         const post = new Post({
             imageUrl: req.body.imageUrl,
             autor: req.body.autor,
+            title: req.body.title,
         });
 
          const savedPost = await post.save();
