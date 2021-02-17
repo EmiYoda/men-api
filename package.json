@@ -4,7 +4,7 @@
   "description": "mongoDB-express-Node.js rest api for photodb project",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": "https://github.com/EmiYoda/men-api.git",
   "author": "Emiliano Del Valle",
